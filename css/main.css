@@ -1,0 +1,62 @@
+/* -----------------------------Specification----------------------------- */
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+body{
+	font-family: Lato, sans-serif;
+	color:#000;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+	font-size: 18;
+	line-height: 1.5em;
+}
+ul, li{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	font-family: Varela Round, sans-serif;
+	
+}
+h1{
+	font-size: 62px;
+	font-family: Varela Round;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+.d-flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.align-items-center{
+	-ms-align-items: center;
+	align-items: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:focus{
+	outline: none;
+}
+
+ /* -----------------------------Header----------------------------- */
+
+
