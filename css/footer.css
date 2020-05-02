@@ -1,0 +1,35 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__bottom-row {
+    border-top: 1px solid rgba(38, 41, 44, 0.05);
+    width: 100%;
+    align-items: center;
+}
+
+.footer__copyright-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 27px 15px;
+}
+
+.footer__copyright {
+    font-size: 9px;
+    margin-right: 11px;
+}
+
+.footer__freebie {
+    color: #8c8f94;
+    font-size: 14px;
+}
