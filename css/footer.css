@@ -11,6 +11,52 @@
     justify-content: space-between;
 }
 
+.footer__top-row {
+    width: 100%;
+}
+
+.footer__providence-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 245px;
+}
+
+.footer__providence-logo {
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+
+.footer__providence-logo--bold {
+    font-weight: 900;
+}
+
+.footer__providence-description {
+    color: #8c8f94;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.footer__download {
+    border: 0;
+    max-width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer__download-icon {
+    max-width: 140px;
+}
+
+.footer__social-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 17px;
+}
+
 .footer__bottom-row {
     border-top: 1px solid rgba(38, 41, 44, 0.05);
     width: 100%;
