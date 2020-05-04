@@ -58,5 +58,137 @@ button, button:hover, button:focus, button:focus{
 }
 
  /* -----------------------------Header----------------------------- */
+ 
 
+/* -----------------------------Almost----------------------------- */
+.almost {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-box-left {
+    width: 30%;
+	margin: 0 auto;
+    margin-left: 14%;
+    margin-right: 5%;
+}
+
+.almost-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.we-everywhere {
+/*
+  width: 279px;
+  height: 94px;
+*/
+  font-family: VarelaRound;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #26272d;
+  margin-bottom: 64px;
+}
+
+.we-everywhere-description {
+/*  width: 469px;*/
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8f94;
+  margin-bottom: 20px;
+}
+.partners {
+/*  width: 69px;*/
+/*  height: 10px;*/
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #26272d;
+  text-transform: uppercase;
+}
+
+.logo-icon {
+  margin-top: 68px;
+}
+
+.partners-icon {
+    display: flex;
+    margin-top: 31px;
+}
+
+.icon-one {
+  width: 125px;
+  height: 34px;
+  margin-right: 31px;
+}
+
+.icon-two {
+  width: 138px;
+  height: 35px;
+}
+.almost-map {
+  width: 56%;
+  height: 496px;
+  margin-left: 50px;  
+  background: url(../img/world-map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.world-map {
+    max-width: inherit;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+.we-everywhere {
+  font-size: 32px;
+  margin-bottom: 34px;
+}
+.container-box-left {
+    width: 28%;
+}
+
+    
+    }
+
+@media screen and (max-width: 768px) {
+    
+.container-box-left {
+    width: 26%;
+	margin: 0 auto;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+    
+    }
+
+@media screen and (max-width: 650px) {
+    .almost-map {
+        display: none;
+    }
+    .container-box-left {
+    width: 80%;
+	margin: 0 auto;
+    
+}
+
+    }
 
