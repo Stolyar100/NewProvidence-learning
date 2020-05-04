@@ -38,6 +38,10 @@ h1{
 a, button, input {
 	transition: all 0.5s ease;
 }
+a{
+	text-decoration: none;
+	color: #000;
+}
 .d-flex{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -59,6 +63,48 @@ button, button:hover, button:focus, button:focus{
 
  /* -----------------------------Header----------------------------- */
  
+
+	                       /*Header Navigation*/
+.header{
+	background: url(../img/Imgheader/header_img.jpg) no-repeat center top;
+	padding-top: 44px;
+	padding-bottom: 512px;
+}
+.navigation{
+	font-size:16px;
+	color: #000;
+	
+}
+.navigation-left{
+	width: 285px;
+}
+.navigation-left__item_link{
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+}
+.navigation-left__item_link:hover{
+	color: #c7c7c8;
+}
+.navigation-right__item_link:hover{
+	color:#c7c7c8;
+}
+.navigation-right{
+	width: 295px;
+}
+.navigation-right__item-btn{
+	border: 1px solid #267df4;
+	padding: 9px 18px;
+	border-radius: 50px;
+	background: #267df4;
+}
+.navigation-right__item_link{
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+}
+.navigation-right__item-btn_text{
+	margin-left: 13px;
+	color: #fff;
+}
 
 /* -----------------------------Almost----------------------------- */
 .almost {
@@ -191,4 +237,40 @@ button, button:hover, button:focus, button:focus{
 }
 
     }
+                        /*INTRO - HEADER*/
+.intro{
+	margin-top: 100px;
+	text-align: center;
+	font-family: Lato, sans-serif;
+}
+.intro__title{
+color: #26272d;
+font-style: 62px;
+}
+.intro__text{
+font-size: 20px;
 
+width: 786px;
+margin: 0 auto;
+color: #8c8f94;
+margin-top: 43px;
+}
+.intro__btn{
+font-size: 16px;
+border: 1px solid #dadcdf;
+border-radius: 50px;
+margin: 0 auto;
+margin-top: 55px;
+width: 217px;
+
+padding: 12px 49px;
+}
+.fa-play{
+	font-size:  13px;
+}
+
+.intro__btn_text{
+margin-left: 15px;
+font-size: 16px;
+
+}
