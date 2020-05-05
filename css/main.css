@@ -175,10 +175,11 @@ button, button:hover, button:focus, button:focus{
     display: flex;
     justify-content: space-between;
     padding-top: 159px;
+    flex-wrap: wrap;
 }
 
 .plan-text {
-    width: 35%;
+    width: 33%;
 }
 
 .plan-text-header {
@@ -232,11 +233,13 @@ button, button:hover, button:focus, button:focus{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    color: gray;
 }
 
 .company:hover {
     box-shadow: 1.7px 4.7px 20px 0 rgba(61, 61, 62, 0.15), 10.3px 28.2px   50px 0 rgba(92, 95, 101, 0.28);
     background-color: #ffffff; 
+    color: black;
 }
 
 .plan-description-text {
@@ -255,12 +258,14 @@ button, button:hover, button:focus, button:focus{
 }
 
 .plan-card {
+    width: 63%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-starter {
-    width: 340px;
-    height: 550px;
+    width: 50%;
+    height: 590px;
     border-radius: 10px;
     box-shadow: 10.3px 28.2px 50px 0 rgba(92, 95, 101, 0.2);
     background-color: #ffffff;
@@ -277,7 +282,7 @@ button, button:hover, button:focus, button:focus{
     padding-top: 62px;
 }
 
-.free {
+.price {
     width: 63px;
     border-radius: 14px;
     border: solid 1px #26292c;
@@ -318,22 +323,68 @@ button, button:hover, button:focus, button:focus{
     font-size: 16px;
 }
 
-.card-button-field {
-    padding-bottom: 170px;
-}
-
 
 
 .card-pro {
-    width: 340px;
-    height: 510px;
+    width: 50%;
+    height: 550px;
     border-radius: 10px;
     background-color: #ebebed;
     margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pro-header{
+    color: #26272d;
+    font-size: 32px;
+    line-height: 1.19;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+.options-last {
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.card-pro-button {
+    width: 212px;
+    height: 42px;
+    border: solid 1px #267df4;
+    background-color: #ebebed;
+    border-radius: 21px;
+    cursor: pointer;
+    color: #267df4;
+    font-size: 16px;
 }
 
 
 
+
+
+
+@media screen and (max-width: 1170px){
+    
+    .plan-inner {
+        width: 100%;
+        padding-top: 15px;
+        justify-content: center;
+    }
+    
+    .plan-text{
+        width: 60%;
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    
+    .plan-card {
+        width: 80%;
+    }
+}
 
 
 @media screen and (max-width: 1024px) {
