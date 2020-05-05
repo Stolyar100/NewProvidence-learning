@@ -176,8 +176,11 @@ button, button:hover, button:focus, button:focus{
     justify-content: space-between;
 }
 
+.plan-text {
+    width: 35%;
+}
+
 .plan-text-header {
-  width: 244px;
   font-size: 42px;
   font-weight: normal;
   font-stretch: normal;
@@ -235,9 +238,20 @@ button, button:hover, button:focus, button:focus{
     background-color: #ffffff; 
 }
 
+.plan-description-text {
+    color: #8c8f94;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 77px;
+}
 
-
-
+.plan-description-small {
+    color: #8c8f94;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 44px;
+    margin-bottom: 243px;
+}
 
 
 
