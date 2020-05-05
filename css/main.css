@@ -174,6 +174,7 @@ button, button:hover, button:focus, button:focus{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 159px;
 }
 
 .plan-text {
@@ -181,15 +182,15 @@ button, button:hover, button:focus, button:focus{
 }
 
 .plan-text-header {
-  font-size: 42px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.24;
-  letter-spacing: normal;
-  text-align: left;
-  color: #26272d;
-    margin-top: 206px;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #26272d;
+    margin-top: 47px;
 }
 
 .you-are {
@@ -251,6 +252,84 @@ button, button:hover, button:focus, button:focus{
     line-height: 1.71;
     margin-top: 44px;
     margin-bottom: 243px;
+}
+
+.plan-card {
+    display: flex;
+}
+
+.card-starter {
+    width: 340px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 10.3px 28.2px 50px 0 rgba(92, 95, 101, 0.2);
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.starter-header{
+    color: #26272d;
+    font-size: 32px;
+    line-height: 1.19;
+    font-weight: 300;
+    padding-top: 62px;
+}
+
+.free {
+    width: 63px;
+    border-radius: 14px;
+    border: solid 1px #26292c;
+    font-size: 11px;
+    color: #26272d;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+}
+
+.starter-description {
+    color: #8c8f94;
+    font-size: 20px;
+    margin-top: 56px;
+    margin-bottom: 47px;
+}
+
+.options-first {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.options-second {
+    font-size: 16px;
+    margin-bottom: 89px;
+}
+
+.card-starter-button {
+    width: 212px;
+    height: 42px;
+    border: none;
+    border-radius: 21px;
+    background-color: #267df4;
+    cursor: pointer;
+    margin-bottom: 70px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.card-button-field {
+    padding-bottom: 170px;
+}
+
+
+
+.card-pro {
+    width: 340px;
+    height: 510px;
+    border-radius: 10px;
+    background-color: #ebebed;
+    margin-top: 20px;
 }
 
 
