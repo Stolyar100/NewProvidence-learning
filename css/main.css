@@ -205,26 +205,35 @@ button, button:hover, button:focus, button:focus{
 .plan-button-field {
     width: 258px;
     height: 50px;
-    opacity: 0.15;
     border-radius: 25px;
     border: solid 1px #26292c;
-    background-color: #26292c;
     display: flex;
     justify-content: space-between;
 }
 
 .individual {
     width: 124px;
-    height: 50px;
+    height: 48px;
     border-radius: 25px;
     box-shadow: 1.7px 4.7px 20px 0 rgba(61, 61, 62, 0.15), 10.3px 28.2px   50px 0 rgba(92, 95, 101, 0.28);
     background-color: #ffffff;
     text-align: center;
+    font-size: 16px;
+    z-index: 1;
+    cursor: pointer;
 }
 
+.company {
+    width: 124px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
 
-
-
+.company:hover {
+    box-shadow: 1.7px 4.7px 20px 0 rgba(61, 61, 62, 0.15), 10.3px 28.2px   50px 0 rgba(92, 95, 101, 0.28);
+    background-color: #ffffff; 
+}
 
 
 
