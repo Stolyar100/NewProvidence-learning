@@ -155,6 +155,84 @@ button, button:hover, button:focus, button:focus{
     max-width: inherit;
 }
 
+ /* -----------------------------Interface----------------------------- */
+ 
+
+
+/* -----------------------------Providence----------------------------- */
+
+
+
+
+ /* --------------------------------Plan------------------------------- */
+ 
+.plan {
+    background-color: #f4f4f5;
+}
+
+.plan-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-text-header {
+  width: 244px;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #26272d;
+    margin-top: 206px;
+}
+
+.you-are {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.83;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #26272d;
+    margin-top: 67px;
+}
+
+.plan-button-field {
+    width: 258px;
+    height: 50px;
+    opacity: 0.15;
+    border-radius: 25px;
+    border: solid 1px #26292c;
+    background-color: #26292c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.individual {
+    width: 124px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 1.7px 4.7px 20px 0 rgba(61, 61, 62, 0.15), 10.3px 28.2px   50px 0 rgba(92, 95, 101, 0.28);
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
 
