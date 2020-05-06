@@ -1,3 +1,363 @@
+
+
+ /* -----------------------------Header----------------------------- */
+ 
+
+/* -----------------------------Almost----------------------------- */
+
+ /* -----------------------------Interface----------------------------- */
+ 
+
+
+/* -----------------------------Providence----------------------------- */
+
+
+
+
+ /* --------------------------------Plan------------------------------- */
+ 
+.plan {
+    background-color: #f4f4f5;
+}
+
+.plan-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 159px;
+    flex-wrap: wrap;
+}
+
+.plan-text {
+    width: 33%;
+}
+
+.plan-text-header {
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #26272d;
+    margin-top: 47px;
+}
+
+.you-are {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.83;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #26272d;
+    margin-top: 67px;
+}
+
+.plan-button-field {
+    width: 258px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px #26292c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.individual {
+    width: 124px;
+    height: 48px;
+    border-radius: 25px;
+    box-shadow: 1.7px 4.7px 20px 0 rgba(61, 61, 62, 0.15), 10.3px 28.2px   50px 0 rgba(92, 95, 101, 0.28);
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.company {
+    width: 124px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    color: gray;
+}
+
+.company:hover {
+    box-shadow: 1.7px 4.7px 20px 0 rgba(61, 61, 62, 0.15), 10.3px 28.2px   50px 0 rgba(92, 95, 101, 0.28);
+    background-color: #ffffff; 
+    color: black;
+}
+
+.plan-description-text {
+    color: #8c8f94;
+    max-width: 50%:
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 77px;
+    flex-wrap: wrap;
+}
+
+.plan-description-small {
+    color: #8c8f94;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 44px;
+    margin-bottom: 243px;
+}
+
+.plan-card {
+    width: 63%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-starter {
+    width: 50%;
+    height: 590px;
+    border-radius: 10px;
+    box-shadow: 10.3px 28.2px 50px 0 rgba(92, 95, 101, 0.2);
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.starter-header{
+    color: #26272d;
+    font-size: 32px;
+    line-height: 1.19;
+    font-weight: 300;
+    padding-top: 62px;
+}
+
+.price {
+    width: 63px;
+    border-radius: 14px;
+    border: solid 1px #26292c;
+    font-size: 11px;
+    color: #26272d;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+}
+
+.starter-description {
+    color: #8c8f94;
+    font-size: 20px;
+    margin-top: 56px;
+    margin-bottom: 47px;
+}
+
+.options-first {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.options-second {
+    font-size: 16px;
+    margin-bottom: 89px;
+}
+
+.card-starter-button {
+    width: 212px;
+    height: 42px;
+    border: none;
+    border-radius: 21px;
+    background-color: #267df4;
+    cursor: pointer;
+    margin-bottom: 70px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+
+.card-pro {
+    width: 50%;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #ebebed;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pro-header{
+    color: #26272d;
+    font-size: 32px;
+    line-height: 1.19;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+.options-last {
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.card-pro-button {
+    width: 212px;
+    height: 42px;
+    border: solid 1px #267df4;
+    background-color: #ebebed;
+    border-radius: 21px;
+    cursor: pointer;
+    color: #267df4;
+    font-size: 16px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1170px){
+    
+    .plan-inner{
+        width: 80%;
+    }
+    
+    .plan-text{
+        width: 30%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .plan-card {
+        width: 50%;
+    }
+
+    
+    
+    
+
+@media screen and (max-width: 940px) {
+
+     .plan-inner{
+        width: 70%;
+         justify-content: center;
+    }
+    .plan-text {
+        width: 80%;
+    }
+    
+    .plan-description-small {
+        margin-bottom: 50px;
+    }
+    
+    .plan-card {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    
+    
+    }
+
+@media screen and (max-width: 768px) {
+    
+    .plan-inner{
+        width: 80%;
+        justify-content: flex-start;
+    }
+    .plan-text {
+        width: 80%;
+    }
+    
+    .plan-description-small {
+        margin-bottom: 50px;
+    }
+    
+    .plan-card {
+        width: 80%;
+        margin-bottom: 100px;
+
+    }
+    
+    .card-starter {
+        width: 60%;
+    }
+    
+    .card-pro {
+        width: 60%;
+    }
+    
+    }
+    
+
+@media screen and (max-width: 650px) {
+    .plan-inner{
+        width: 70%;
+        justify-content: flex-start;
+    }
+    .plan-text {
+        width: 70%;
+    }
+    
+    .plan-description-small {
+        margin-bottom: 50px;
+    }
+    
+    .plan-card {
+        width: 70%;
+        margin-bottom: 100px;
+
+    }
+    
+    .card-starter {
+        width: 55%;
+    }
+    
+    .card-pro {
+        width: 55%;
+    }
+    
+    }
+    
+    }
+
+
+@media screen and (max-width: 446px) {
+    .plan-inner{
+        width: 70%;
+        justify-content: flex-start;
+    }
+    .plan-text {
+        width: 60%;
+        text-align: left;
+    }
+    
+    .plan-description-text{
+        font-size: 12px;
+    }
+    
+    .plan-description-small {
+        margin-bottom: 50px;
+    }
+    
+    .plan-card {
+        width: 60%;
+        margin-bottom: 100px;
+
+    }
+    
+    .card-starter {
+        width: 55%;
+    }
+    
+    .card-pro {
+        width: 55%;
+    }
+    
+    }
+    
+    }
+
 /* -----------------------------Specification----------------------------- */
 .container{
   max-width: 1170px;
@@ -277,6 +637,7 @@ margin-left: 15px;
 font-size: 16px;
 
 }
+
 /*SECTION providence*/
          
 .providence{
@@ -419,3 +780,64 @@ margin-top: 36px;
   width: 285px;
 }
 }
+
+
+/* -----------------------------Specification----------------------------- */
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+body{
+	font-family: Lato, sans-serif;
+	color:#000;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+	font-size: 18;
+	line-height: 1.5em;
+}
+ul, li{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	font-family: Varela Round, sans-serif;
+	
+}
+h1{
+	font-size: 62px;
+	font-family: Varela Round;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+.d-flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.align-items-center{
+	-ms-align-items: center;
+	align-items: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:focus{
+	outline: none;
+}
+

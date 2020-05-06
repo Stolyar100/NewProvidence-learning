@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/time.css" />
 	<link rel="stylesheet" href="css/protected.css" />
+	<link rel="stylesheet" href="css/interface.css" />
+	<link rel="stylesheet" href="css/get-app.css" />
 	<link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/subscribe.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Varela+Round&display=swap" rel="stylesheet">
@@ -90,8 +92,8 @@
 			<div class="adopt">
 				<img class="clock time-icon" src="img/clock-icon.svg">
 				<h3 class="real-time">Adopt without any obstacles</h3>
-				<p class="real-p">This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</p>
-				<p class="real-p">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
+				<p class="time-p">This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</p>
+				<p class="time-p">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
 			</div>
 		</div>
 	</section>
@@ -138,7 +140,66 @@
 	</section>
 	<section class="interface" id="interface">
 		<div class="container">
-			
+			<div class="interface__block">
+				<div class="interface__row-text">
+					<h2 class="interface__title">
+						Beautiful Interface
+					</h2>
+					<hr class="interface__line">
+					<p class="interface__description">
+						Landing Screen
+					</p>
+				</div>
+				<div class="interface__row-images">
+					<div class="interface__image-block">
+						<img class="interface__image" src="img/screen-1.png" alt="screen-1"
+						srcset="img/screen-1@2x.png 2x, img/screen-1@3x.png 3x">
+					</div>
+					<div class="interface__image-block">
+						<img class="interface__image" src="img/screen-2.png" alt="screen-2" 
+						srcset="img/screen-2@2x.png 2x, img/screen-2@3x.png 3x">
+					</div>
+					<div class="interface__image-block">
+						<img class="interface__image" src="img/i-phone-6.png" alt="i-phone-6"
+						srcset="img/i-phone-6@2x.png 2x, img/i-phone-6@3x.png 3x">
+					</div>
+					<div class="interface__image-block">
+						<img class="interface__image" src="img/screen-3.png" alt="screen-3"
+						srcset="img/screen-3@2x.png 2x, img/screen-3@3x.png 3x">
+					</div>
+					<div class="interface__image-block">
+						<img class="interface__image" src="img/screen-4.png" alt="screen-4"
+						srcset="img/screen-4@2x.png 2x, img/screen-4@3x.png 3x">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="get-app" id="get-app">
+		<div class="container">
+			<div class="get-app__form-block">
+				<p class="get-app__providence-logo">
+					<span class="get-app__providence-logo--bold">NEW</span>PROVIDENCE
+				</p>
+				<h2 class="get-app__title">
+					Get it to your smartphone 
+				</h2>
+				<form class="get-app__form">
+					<input class="get-app__input" type="email" placeholder="Your e-mail" />
+					<button class="get-app__button" type="submit">
+						<span>Subscribe</span>
+						<div class="get-app_arrow-icon">
+							<img src="img/arrow-icon.svg" alt="arrow icon">
+						</div>
+					</button>
+				</form>
+				<p class="get-app__description">
+					or Download From
+				</p>
+				<button class="get-app__download">
+					<img src="img/apple-app-store.svg" alt="Download on the App Store" class="get-app__download-icon">
+				</button>
+			</div>
 		</div>
 	</section>
 	<section class="providence" id="providence">
@@ -184,7 +245,63 @@
 	</section>
 	<section class="plan" id="plan">
 		<div class="container">
-			
+			<div class="plan-inner">
+                <div class="plan-text">
+                    <h2 class="plan-text-header">
+                        Choose your<br /> perfect plan
+                    </h2>
+                    <p class="you-are">
+                        You are
+                    </p>
+                    <div class="plan-button-field">
+                        <input type="button" id="individual" class="individual" value="Individual">
+                        <input type="button" id="company" class="company" value="Company">
+                    </div>
+                    <div class="plan-decription">
+                        <p class="plan-description-text">
+                            Thus much I thought proper to tell you in<br /> relation to yourself, and to the trust I<br /> reposed in you.
+                        </p>
+                        <p class="plan-description-small">
+                            Have a bigger team? <a href="#"> Let‘s talk </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="plan-card">
+                    <div class="card-starter">
+                       <h4 class="starter-header">Starter</h4>
+                        <div class="price">FREE</div>
+                        <p class="starter-description">
+                            Build your schedule<br /> every day
+                        </p>
+                        <div class="plan-options">
+                            <p class="options-first"> <img src="img/on-icon.svg">  Unlimeted events </p>
+                            <p class="options-second"> <img src="img/on-icon.svg">  Connect Dropbox & Evernote </p>
+                        </div>
+                        <div class="card-button-field">
+                        <button id="cardStarterButton" value="StarterPlan" class="card-starter-button">
+                            Get started
+                        </button>
+                        </div>
+                    </div>
+                    <div class="card-pro">
+                        <h4 class="pro-header">Pro</h4>
+                        <div class="price">$4.99</div>
+                        <p class="starter-description">
+                            Make your life<br /> better
+                        </p>
+                        <div class="plan-options">
+                            <p class="options-first"> <img src="img/on-icon.svg">  Unlimeted events </p>
+                            <p class="options-first"> <img src="img/on-icon.svg">  Connect Dropbox & Evernote</p>
+                            <p class="options-last"> <img src="img/on-icon.svg">  Personal Asistant</p>
+                        </div>
+                        <div class="card-button-field">
+                        <button id="cardProButton" value="ProPlan" class="card-pro-button">
+                            Make me a Pro
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</section>
 	<section class="subscribe" id="subscribe">
@@ -267,6 +384,7 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</footer>
 </body>
