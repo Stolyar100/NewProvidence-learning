@@ -15,7 +15,7 @@
 
 
  /* --------------------------------Plan------------------------------- */
- 
+
 .plan {
     background-color: #f4f4f5;
 }
@@ -239,9 +239,9 @@
 
 @media screen and (max-width: 940px) {
 
-     .plan-inner{
+    .plan-inner{
         width: 70%;
-         justify-content: center;
+        justify-content: center;
     }
     .plan-text {
         width: 80%;
@@ -380,9 +380,9 @@ p{
 	line-height: 1.5em;
 }
 ul, li{
-   display: block;
-   margin: 0;
-   padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
@@ -639,7 +639,7 @@ font-size: 16px;
 }
 
 /*SECTION providence*/
-         
+
 .providence{
   padding-top: 131px;
   padding-bottom: 127px;  
@@ -766,7 +766,7 @@ font-size: 43px;
 margin-top: 36px;
   }
 
-                           /*320-576px providence*/
+                          /*320-576px providence*/
 .photoInCircle__right{
   display: none;
 }
@@ -803,9 +803,9 @@ p{
 	line-height: 1.5em;
 }
 ul, li{
-   display: block;
-   margin: 0;
-   padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
