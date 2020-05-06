@@ -44,8 +44,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .interface__image {
-    max-width: 320px;
+    max-width: 300px;
 }
