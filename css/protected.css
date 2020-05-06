@@ -1,0 +1,64 @@
+.protected {
+	position: relative;
+    bottom: auto;
+    right: auto;
+    padding: 0 15px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 1000px;
+	background: url(../img/iphone-feature.png) no-repeat left center;
+}
+
+.protect {
+	height: 60%;
+	margin-left: 800px;
+	padding-top: 150px;
+	padding-left: 50px;
+}
+
+.prot { 
+	margin-bottom: 33px;
+	font-size: 18px;
+}
+
+.real-protect {
+	font-size: 52px;
+	margin-bottom: 49px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 9px 16px;
+  text-decoration: none;
+  color: #26272d;
+  border: 1px solid rgba(38, 39, 45, 0.1);
+  border-radius: 30px;
+ }
+
+.btn-blue {
+  width: 200px;
+  background-color: #267df4;
+  color: white;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.btns-box a {
+  margin-right: 40px;
+  margin-bottom: 18px;
+}
+.btns-box a  i {
+	margin-left: 50px;
+	font-size: 14px;
+}
+.fa-arrow-right {
+    content: "\f061";
+    padding-left: 30px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1;
+    font-size: inherit;
+    text-rendering: auto;
+}
