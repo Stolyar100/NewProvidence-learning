@@ -1,0 +1,95 @@
+.get-app {
+    background-color: #f5f5f8;
+}
+
+.get-app__form-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.get-app__providence-logo {
+    font-size: 12px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    margin-bottom: 36px;
+    color: rgba(58, 61, 75, 0.5);
+}
+
+.get-app__providence-logo--bold {
+    font-weight: 700;
+}
+
+.get-app__title {
+    margin-bottom: 50px;
+}
+
+.get-app__form {
+    margin-bottom: 66px;
+    border-radius: 25px;
+    height: 50px;
+    border: solid 1px rgb(38, 41, 44, 0.2);
+    padding: 4px 5px;
+    max-width: 562px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-app__input {
+    border-radius: 25px;
+    font-size: 16px;
+    border: 0;
+    height: 100%;
+    vertical-align: baseline;
+    color: rgba(38, 41, 44, 0.7);
+    background-color: transparent;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.get-app__button {
+    background-color: #6fc754;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 0;
+    height: 100%;
+    vertical-align: middle;
+    padding: 14px 23px 14px 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 50%;
+}
+
+.get-app_arrow-icon {
+    margin-left: 18px;
+}
+
+.get-app__description {
+    font-size: 12px;
+    color: rgba(58, 61, 75, 0.5);
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.get-app__download {
+    border: 0;
+    max-width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+.get-app__download-icon {
+    max-width: 140px;
+    border-radius: 25px;
+}
