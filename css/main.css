@@ -470,6 +470,7 @@ button, button:hover, button:focus, button:focus{
 .almost {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 222px;
 }
 
 .container-box-left {
@@ -485,11 +486,6 @@ button, button:hover, button:focus, button:focus{
 }
 
 .we-everywhere {
-/*
-  width: 279px;
-  height: 94px;
-*/
-  font-family: VarelaRound;
   font-size: 42px;
   font-weight: normal;
   font-stretch: normal;
