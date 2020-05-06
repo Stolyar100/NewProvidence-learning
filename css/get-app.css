@@ -1,3 +1,7 @@
+.get-app {
+    background-color: #f5f5f8;
+}
+
 .get-app__form-block {
     display: flex;
     flex-direction: column;
